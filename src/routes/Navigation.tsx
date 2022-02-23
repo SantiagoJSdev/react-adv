@@ -10,6 +10,7 @@ import {
 import { ShoppingPage } from '../02-component-pattern/pages/ShoppingPage';
 
 import logo from '../logo.svg';
+import { ShoppingPage } from '../02-component-patterns/pages/ShoppingPage';
 
 export const Navigation = () => {
   return (
@@ -40,7 +41,11 @@ export const Navigation = () => {
             <h1>Users</h1>
           </Route>
           <Route path="/">
+<<<<<<< HEAD
             <ShoppingPage/>
+=======
+            <ShoppingPage />
+>>>>>>> 6df85033d2a9e0f7800393aaafb12290dfb52ffa
           </Route>
         </Switch>
       </div>
